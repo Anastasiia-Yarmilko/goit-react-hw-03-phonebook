@@ -21,12 +21,13 @@ class Form extends Component {
       event.preventDefault();
       const { addContact } = this.props;
       const contact = {
-        id: this.state.id,
+        id: this.state.number,
         name: this.state.name,
         number: this.state.number,
       };
       addContact(contact);
       this.setState({
+        id: '',
         name: '',
         number: '',
       });
