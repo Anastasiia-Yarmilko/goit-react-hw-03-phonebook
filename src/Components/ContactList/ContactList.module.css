@@ -1,0 +1,36 @@
+ul {
+  list-style: none;
+}
+
+.list {
+  margin-left: 35px;
+  padding-left: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contact {
+  margin: 0;
+}
+
+.btn {
+  width: 42px;
+  height: 16px;
+  font-size: 10px;
+  padding: 0;
+  margin-left: 10px;
+  background-color: rgb(151, 151, 151);
+  outline: none;
+  border-radius: 4px;
+  border: solid 1px black;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(30, 98, 100);
+  color: rgb(151, 151, 151);
+}
